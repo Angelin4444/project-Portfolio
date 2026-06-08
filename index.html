@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Angelin K Mathew — UI/UX Designer & Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <!-- Phosphor Icons -->
+  <script src="https://unpkg.com/@phosphor-icons/web@2.1.1/src/index.js" defer></script>
+</head>
+<body>
+
+  <!-- ═══ CURSOR ═══ -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursorFollower"></div>
+
+  <!-- ═══ NAV ═══ -->
+  <nav class="nav" id="nav">
+    <div class="nav-logo">AKM</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- ═══ HERO ═══ -->
+  <section class="hero" id="hero">
+    <div class="hero-noise"></div>
+    <div class="hero-blob blob-1"></div>
+    <div class="hero-blob blob-2"></div>
+    <div class="hero-blob blob-3"></div>
+
+    <div class="hero-content">
+      <p class="hero-eyebrow reveal-up">✦ Portfolio 2025–2026</p>
+      <h1 class="hero-title reveal-up">
+        <span class="line">Meet</span>
+        <span class="line accent-stroke">Angelin</span>
+        <span class="line">K Mathew</span>
+      </h1>
+      <div class="hero-tags reveal-up">
+        <span class="tag">UI/UX Designer</span>
+        <span class="tag-divider">×</span>
+        <span class="tag">Web Developer</span>
+        <span class="tag-divider">×</span>
+        <span class="tag">Technical Lead</span>
+      </div>
+      <div class="hero-cta reveal-up">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-ghost">Let's Connect</a>
+      </div>
+    </div>
+
+    <div class="hero-scroll-hint">
+      <span></span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ═══ ABOUT ═══ -->
+  <section class="about section" id="about">
+    <div class="about-grid">
+      <div class="about-image-wrap reveal-left">
+        <div class="about-img-frame">
+          <img src="profile.jpeg" alt="Angelin K Mathew" class="about-img" />
+          <div class="about-img-deco"></div>
+        </div>
+        <div class="about-badge">
+          <span class="badge-icon">✦</span>
+          <span>Creative Computing<br>Student</span>
+        </div>
+      </div>
+
+      <div class="about-text reveal-right">
+        <p class="section-label">Who I Am</p>
+        <h2 class="section-heading">Hello! I'm <em>Angelin</em></h2>
+        <p class="about-desc">
+          I'm a final-year Creative Computing student who loves designing
+          user-friendly digital experiences. I bring strong creative thinking
+          skills and a fast-learning mindset to every project.
+        </p>
+
+        <div class="education-cards">
+          <div class="edu-card">
+            <div class="edu-year">2024 – 2027</div>
+            <div class="edu-info">
+              <strong>BSc (Hons) Creative Computing</strong>
+              <span>BathSpa University RAK</span>
+            </div>
+          </div>
+          <div class="edu-card">
+            <div class="edu-year">2023 – 2024</div>
+            <div class="edu-info">
+              <strong>Class XII · CBSE Board</strong>
+              <span>Sharjah Indian School</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ SKILLS ═══ -->
+  <section class="skills section" id="skills">
+    <div class="container">
+      <p class="section-label reveal-up">What I Bring</p>
+      <h2 class="section-heading reveal-up">My <em>Toolkit</em></h2>
+
+      <div class="skills-grid">
+        <div class="skill-group reveal-up" style="--d:0s">
+          <div class="skill-group-header">
+            <i class="ph-bold ph-pencil-ruler"></i>
+            <h3>Design</h3>
+          </div>
+          <ul class="skill-list">
+            <li><span>Figma</span><div class="skill-bar"><div class="skill-fill" style="--w:90%"></div></div></li>
+            <li><span>Canva</span><div class="skill-bar"><div class="skill-fill" style="--w:85%"></div></div></li>
+            <li><span>CapCut</span><div class="skill-bar"><div class="skill-fill" style="--w:80%"></div></div></li>
+            <li><span>Twine</span><div class="skill-bar"><div class="skill-fill" style="--w:70%"></div></div></li>
+          </ul>
+        </div>
+
+        <div class="skill-group reveal-up" style="--d:0.1s">
+          <div class="skill-group-header">
+            <i class="ph-bold ph-code"></i>
+            <h3>Development</h3>
+          </div>
+          <ul class="skill-list">
+            <li><span>HTML / CSS</span><div class="skill-bar"><div class="skill-fill" style="--w:92%"></div></div></li>
+            <li><span>JavaScript</span><div class="skill-bar"><div class="skill-fill" style="--w:80%"></div></div></li>
+            <li><span>Python</span><div class="skill-bar"><div class="skill-fill" style="--w:75%"></div></div></li>
+            <li><span>GitHub</span><div class="skill-bar"><div class="skill-fill" style="--w:85%"></div></div></li>
+          </ul>
+        </div>
+
+        <div class="skill-group reveal-up" style="--d:0.2s">
+          <div class="skill-group-header">
+            <i class="ph-bold ph-chats"></i>
+            <h3>Languages</h3>
+          </div>
+          <ul class="skill-tags">
+            <li class="tag-pill fluent">English <span>Fluent</span></li>
+            <li class="tag-pill fluent">Malayalam <span>Fluent</span></li>
+            <li class="tag-pill basic">Hindi <span>Basic</span></li>
+            <li class="tag-pill basic">Tamil <span>Basic</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ EXPERIENCE ═══ -->
+  <section class="experience section" id="experience">
+    <div class="container">
+      <p class="section-label reveal-up">My Journey</p>
+      <h2 class="section-heading reveal-up">Experience &amp; <em>Leadership</em></h2>
+
+      <div class="timeline">
+
+        <div class="tl-item reveal-up">
+          <div class="tl-dot"></div>
+          <div class="tl-card">
+            <div class="tl-meta">
+              <span class="tl-date">Feb – May 2026</span>
+              <span class="tl-type work">Internship</span>
+            </div>
+            <h3>Project Manager &amp; Front-End Design Intern</h3>
+            <p class="tl-org">Amereni Technologies</p>
+            <p>Led a 6-person team to redesign and rebuild a live company website. Managed full project lifecycle — stakeholder requirements, Figma prototyping, HTML/CSS/JS development, and handoff. Redesigned 2 of 5 pages with full responsiveness.</p>
+          </div>
+        </div>
+
+        <div class="tl-item reveal-up">
+          <div class="tl-dot"></div>
+          <div class="tl-card">
+            <div class="tl-meta">
+              <span class="tl-date">Feb – Mar 2026</span>
+              <span class="tl-type work">Internship</span>
+            </div>
+            <h3>Frontend Developer Intern</h3>
+            <p class="tl-org">Elevvo Pathways</p>
+            <p>Led a 6-person team for a website redesign. Managed the full lifecycle from prototyping to handoff and redesigned 2 pages for improved UX.</p>
+          </div>
+        </div>
+
+        <div class="tl-item reveal-up">
+          <div class="tl-dot"></div>
+          <div class="tl-card">
+            <div class="tl-meta">
+              <span class="tl-date">Sep 2025 – Present</span>
+              <span class="tl-type lead">Leadership</span>
+            </div>
+            <h3>Technical Lead</h3>
+            <p class="tl-org">Google Developer Group on Campus</p>
+            <p>Co-organized 4 successful tech events. Provided direct tech support to 80+ students and mentored peers across disciplines.</p>
+          </div>
+        </div>
+
+        <div class="tl-item reveal-up">
+          <div class="tl-dot"></div>
+          <div class="tl-card">
+            <div class="tl-meta">
+              <span class="tl-date">2026 – 2027</span>
+              <span class="tl-type lead">Leadership</span>
+            </div>
+            <h3>Vice President Internal</h3>
+            <p class="tl-org">Bath Spa University RAK Student Council</p>
+            <p>Planned and executed a successful campus-wide campaign to secure the VP Internal leadership role.</p>
+          </div>
+        </div>
+
+        <div class="tl-item reveal-up">
+          <div class="tl-dot"></div>
+          <div class="tl-card">
+            <div class="tl-meta">
+              <span class="tl-date">2024 – Present</span>
+              <span class="tl-type vol">Volunteer</span>
+            </div>
+            <h3>Student Volunteer</h3>
+            <p class="tl-org">Student Council</p>
+            <p>Cultural Leadership — organised an event for 300+ attendees. Class Representative advocating for 40 students. Athletic Leadership as Sports Fest House Deputy.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ PROJECTS ═══ -->
+  <section class="projects section reveal" id="projects">
+    <div class="container">
+      <p class="section-label reveal-up">What I've Built</p>
+      <h2 class="section-heading reveal-up">Selected <em>Projects</em></h2>
+
+      <div class="projects-grid">
+        <a href="https://github.com/Angelin4444" target="_blank" rel="noopener" class="project-card reveal-up" style="--pc-hue:20;">
+          <div class="project-inner">
+            <div class="project-icon"><i class="ph-bold ph-code-block"></i></div>
+            <span class="project-label">Web<br>Development</span>
+            <span class="project-sub">GitHub</span>
+            <span class="project-arrow"><i class="ph-bold ph-arrow-up-right"></i></span>
+          </div>
+        </a>
+
+        <a href="https://github.com/Angelin4444/smartphone-apps-projects" target="_blank" rel="noopener" class="project-card reveal-up" style="--pc-hue:320; --d:0.05s">
+          <div class="project-inner">
+            <div class="project-icon"><i class="ph-bold ph-device-mobile"></i></div>
+            <span class="project-label">App<br>Development</span>
+            <span class="project-sub">GitHub</span>
+            <span class="project-arrow"><i class="ph-bold ph-arrow-up-right"></i></span>
+          </div>
+        </a>
+
+        <a href="https://sway.cloud.microsoft/29ehJASMtntQCfpX?ref=Link" target="_blank" rel="noopener" class="project-card reveal-up" style="--pc-hue:280; --d:0.1s">
+          <div class="project-inner">
+            <div class="project-icon"><i class="ph-bold ph-layout"></i></div>
+            <span class="project-label">Sway<br>Portfolio 1</span>
+            <span class="project-sub">Microsoft Sway</span>
+            <span class="project-arrow"><i class="ph-bold ph-arrow-up-right"></i></span>
+          </div>
+        </a>
+
+        <a href="https://sway.cloud.microsoft/3HFKD3lWAPLGZFY2?ref=Link" target="_blank" rel="noopener" class="project-card reveal-up" style="--pc-hue:280; --d:0.15s">
+          <div class="project-inner">
+            <div class="project-icon"><i class="ph-bold ph-layout"></i></div>
+            <span class="project-label">Sway<br>Portfolio 2</span>
+            <span class="project-sub">Microsoft Sway</span>
+            <span class="project-arrow"><i class="ph-bold ph-arrow-up-right"></i></span>
+          </div>
+        </a>
+
+        <a href="https://sway.cloud.microsoft/fjJzwrDwGozkJm6b?ref=Link" target="_blank" rel="noopener" class="project-card reveal-up" style="--pc-hue:280; --d:0.2s">
+          <div class="project-inner">
+            <div class="project-icon"><i class="ph-bold ph-layout"></i></div>
+            <span class="project-label">Sway<br>Portfolio 3</span>
+            <span class="project-sub">Microsoft Sway</span>
+            <span class="project-arrow"><i class="ph-bold ph-arrow-up-right"></i></span>
+          </div>
+        </a>
+
+        <a href="https://sway.cloud.microsoft/RkqORBIKYb2K3gAX?ref=Link" target="_blank" rel="noopener" class="project-card reveal-up" style="--pc-hue:280; --d:0.25s">
+          <div class="project-inner">
+            <div class="project-icon"><i class="ph-bold ph-layout"></i></div>
+            <span class="project-label">Sway<br>Portfolio 4</span>
+            <span class="project-sub">Microsoft Sway</span>
+            <span class="project-arrow"><i class="ph-bold ph-arrow-up-right"></i></span>
+          </div>
+        </a>
+
+        <a href="https://sway.cloud.microsoft/LTB0EU7dIRSSxNJz?ref=Link" target="_blank" rel="noopener" class="project-card reveal-up" style="--pc-hue:280; --d:0.3s">
+          <div class="project-inner">
+            <div class="project-icon"><i class="ph-bold ph-layout"></i></div>
+            <span class="project-label">Sway<br>Portfolio 5</span>
+            <span class="project-sub">Microsoft Sway</span>
+            <span class="project-arrow"><i class="ph-bold ph-arrow-up-right"></i></span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ CONTACT ═══ -->
+  <section class="contact section" id="contact">
+    <div class="contact-grid">
+
+      <div class="contact-left reveal-left">
+        <p class="section-label">Get In Touch</p>
+        <h2 class="section-heading">Let's Work <em>Together</em></h2>
+        <p class="contact-desc">
+          I'm actively looking for UI/UX and frontend internship opportunities in
+          Dubai, Sharjah, and Ajman. If you're building something great and need
+          someone who can design and code — let's talk.
+        </p>
+
+        <ul class="contact-info">
+          <li>
+            <span class="ci-icon"><i class="ph-bold ph-phone"></i></span>
+            <span>+971 54 454 8408</span>
+          </li>
+          <li>
+            <span class="ci-icon"><i class="ph-bold ph-envelope"></i></span>
+            <span>angelinkmathew@email.com</span>
+          </li>
+          <li>
+            <span class="ci-icon"><i class="ph-bold ph-map-pin"></i></span>
+            <span>Dubai / Sharjah / Ajman, UAE</span>
+          </li>
+        </ul>
+
+        <div class="social-row">
+          <a href="https://www.linkedin.com/in/angelin-k-mathew-77a56b330/" target="_blank" rel="noopener" class="social-btn" aria-label="LinkedIn">
+            <i class="ph-bold ph-linkedin-logo"></i>
+          </a>
+          <a href="https://github.com/Angelin4444" target="_blank" rel="noopener" class="social-btn" aria-label="GitHub">
+            <i class="ph-bold ph-github-logo"></i>
+          </a>
+          <a href="https://www.youtube.com/@angelin446" class="social-btn" aria-label="YouTube">
+            <i class="ph-bold ph-youtube-logo"></i>
+          </a>
+         
+        </div>
+      </div>
+
+      <div class="contact-right reveal-right">
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="e.g. Sara Ahmed" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="you@company.com" required />
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="Internship Opportunity / Collab" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell me about the role or project…" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full" id="sendBtn">
+            <span>Send Message</span>
+            <i class="ph-bold ph-paper-plane-tilt"></i>
+          </button>
+          <p class="form-success" id="formSuccess">✦ Message sent! I'll be in touch soon.</p>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══ FOOTER ═══ -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <p><strong>Angelin K Mathew . Portfolio</strong></p>
+      <p class="footer-copy">© 2026 · All rights reserved</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
